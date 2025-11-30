@@ -1,0 +1,53 @@
+# Datos grandes
+*.csv
+*.parquet
+*.zip
+data/*.csv
+data/*.parquet
+
+# Credenciales
+.streamlit/secrets.toml
+.aws/
+*.pem
+*.key
+credentials.json
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Modelos grandes
+# models/*.pkl
+# models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporales
+tmp/
+temp/
+*.tmp
+
+# AWS
+.aws/credentials
+.aws/config
