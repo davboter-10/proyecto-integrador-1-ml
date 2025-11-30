@@ -17,11 +17,11 @@ Desarrollar un modelo predictivo que identifique clientes con alta probabilidad 
 
 ## Dataset
 
-- **Tamaño:** 711,000 registros
+- **Tamaño:** 852.136 registros
 - **Features:** 40 variables financieras y demográficas
-- **Target:** Reestructuración (binaria: 0/1)
+- **Target:** cumple_6m (binaria: 0/1)
 - **Fuente:** Datos históricos de créditos financieros
-- **Período:** [Especificar]
+- **Período:** 2022-2025
 
 ## 🏗️ Arquitectura
 ```
