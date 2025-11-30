@@ -93,11 +93,11 @@ streamlit run deployment/app.py
 
 | Métrica | Valor |
 |---------|-------|
-| **Accuracy** | 85.2% |
-| **ROC-AUC** | 0.902 |
-| **Precision** | 83.4% |
-| **Recall** | 81.7% |
-| **F1-Score** | 82.5% |
+| **Accuracy** | 75.41% |
+| **ROC-AUC** | 81.38% |
+| **Precision** | 77.96% |
+| **Recall** | 85.35% |
+| **F1-Score** | 81.49% |
 
 
 ## Metodología
