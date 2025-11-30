@@ -1,5 +1,3 @@
-# Predicción de Reestructuraciones Financieras
-
 **Proyecto Integrador 1** - Maestría en Ciencia de Datos y Analítica  
 **Universidad EAFIT** - 2025-2
 
