@@ -18,13 +18,8 @@ Los datos originales están almacenados en AWS S3:
 
 
 
-\*\*Archivo principal:\*\* `reestructuraciones\_711k.csv`
+\*\*Archivo principal:\*\* `maestria.csv`
 
-\- \*\*Tamaño:\*\* 711,000 registros
-
-\- \*\*Features:\*\* 40 variables
-
-\- \*\*Target:\*\* `reestructurado` (binario: 0/1)
 
 
 
@@ -62,7 +57,7 @@ Los datos originales están almacenados en AWS S3:
 
 
 
-\- `reestructurado`: 
+\- `cumple_6m`: 
 
 &nbsp; - 0: Cliente no requirió reestructuración
 
