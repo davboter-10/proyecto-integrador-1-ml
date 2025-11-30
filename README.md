@@ -25,7 +25,7 @@ Desarrollar un modelo predictivo que identifique clientes con alta probabilidad 
 
 ## 🏗️ Arquitectura
 ```
-CSV Data (711K) → S3 Data Lake → SageMaker Training → Modelo XGBoost → Streamlit Dashboard
+CSV Data → S3 Data Lake → SageMaker Training → Modelo XGBoost → Streamlit Dashboard
 ```
 
 ### Stack Tecnológico
@@ -44,10 +44,6 @@ proyecto-integrador-ml/
 │   ├── 01_eda.ipynb       # Análisis exploratorio
 │   ├── 02_feature_engineering.ipynb
 │   └── 03_entrenamiento.ipynb
-├── src/                   # Código fuente
-│   ├── data_processing.py
-│   ├── model_training.py
-│   └── utils.py
 ├── models/                # Modelos entrenados
 │   └── trained/
 │       ├── best_model.pkl
@@ -55,12 +51,10 @@ proyecto-integrador-ml/
 ├── deployment/            # Scripts de deployment
 │   ├── app.py            # Streamlit dashboard
 │   └── requirements.txt
-├── data/                  # Datos (no incluir CSVs grandes)
+├── data/                  # Datos
 │   └── README.md         # Descripción de datos
 ├── docs/                  # Documentación
 │   └── informe_final.pdf
-├── visualizations/        # Gráficos y resultados
-├── .gitignore
 └── README.md
 ```
 
